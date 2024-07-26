@@ -1,0 +1,54 @@
+# Project: CGOL
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+RES      = src/obj/CGOL_private.res
+OBJ      = src/obj/Cell.o src/obj/Font.o src/obj/GameOfLife.o src/obj/Launcher.o src/obj/main.o src/obj/Music.o src/obj/Texture.o src/obj/Timer.o $(RES)
+LINKOBJ  = src/obj/Cell.o src/obj/Font.o src/obj/GameOfLife.o src/obj/Launcher.o src/obj/main.o src/obj/Music.o src/obj/Texture.o src/obj/Timer.o $(RES)
+LIBS     = -L"D:/Dev-Cpp/MinGW64/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib32" -static-libgcc -lmingw32  -lSDL2main -lSDL2  -lopengl32 -lSDL2_image -lSDL2_ttf -lSDL2_mixer -L"E:/Sample Projects/CGOL/lib" -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf
+INCS     = -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"E:/Sample Projects/CGOL/include"
+CXXINCS  = -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include"
+BIN      = bin/CGOL.exe
+CXXFLAGS = $(CXXINCS) -std=c++11
+CFLAGS   = $(INCS) -std=c++11
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+src/obj/Cell.o: src/Cell.cpp
+	$(CPP) -c src/Cell.cpp -o src/obj/Cell.o $(CXXFLAGS)
+
+src/obj/Font.o: src/Font.cpp
+	$(CPP) -c src/Font.cpp -o src/obj/Font.o $(CXXFLAGS)
+
+src/obj/GameOfLife.o: src/GameOfLife.cpp
+	$(CPP) -c src/GameOfLife.cpp -o src/obj/GameOfLife.o $(CXXFLAGS)
+
+src/obj/Launcher.o: src/Launcher.cpp
+	$(CPP) -c src/Launcher.cpp -o src/obj/Launcher.o $(CXXFLAGS)
+
+src/obj/main.o: src/main.cpp
+	$(CPP) -c src/main.cpp -o src/obj/main.o $(CXXFLAGS)
+
+src/obj/Music.o: src/Music.cpp
+	$(CPP) -c src/Music.cpp -o src/obj/Music.o $(CXXFLAGS)
+
+src/obj/Texture.o: src/Texture.cpp
+	$(CPP) -c src/Texture.cpp -o src/obj/Texture.o $(CXXFLAGS)
+
+src/obj/Timer.o: src/Timer.cpp
+	$(CPP) -c src/Timer.cpp -o src/obj/Timer.o $(CXXFLAGS)
+
+src/obj/CGOL_private.res: CGOL_private.rc 
+	$(WINDRES) -i CGOL_private.rc --input-format=rc -o src/obj/CGOL_private.res -O coff 
+

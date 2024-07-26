@@ -1,0 +1,188 @@
+11/26/2020 9:47:54 AM: Creating log...
+
+		E:\Sample Projects\CGOL\src\GameOfLife.cpp	In member function 'void Game::renderGame()':
+223	25	E:\Sample Projects\CGOL\src\GameOfLife.cpp	[Warning] narrowing conversion of '(rand() % 255)' from 'int' to 'Uint8 {aka unsigned char}' inside { } [-Wnarrowing]
+223	36	E:\Sample Projects\CGOL\src\GameOfLife.cpp	[Warning] narrowing conversion of '(rand() % 255)' from 'int' to 'Uint8 {aka unsigned char}' inside { } [-Wnarrowing]
+223	47	E:\Sample Projects\CGOL\src\GameOfLife.cpp	[Warning] narrowing conversion of '(rand() % 255)' from 'int' to 'Uint8 {aka unsigned char}' inside { } [-Wnarrowing]
+
+11/26/2020 9:51:56 AM: Appending to log...
+
+		E:\Sample Projects\CGOL\src\GameOfLife.cpp	In member function 'void Game::renderGame()':
+224	29	E:\Sample Projects\CGOL\src\GameOfLife.cpp	[Warning] narrowing conversion of '(rand() % 255)' from 'int' to 'Uint8 {aka unsigned char}' inside { } [-Wnarrowing]
+224	40	E:\Sample Projects\CGOL\src\GameOfLife.cpp	[Warning] narrowing conversion of '(rand() % 255)' from 'int' to 'Uint8 {aka unsigned char}' inside { } [-Wnarrowing]
+
+11/26/2020 9:52:49 AM: Appending to log...
+
+		D:\Dev-Cpp\MinGW64\x86_64-w64-mingw32\bin\ld.exe	cannot open output file bin/CGOL.exe: Permission denied
+		E:\Sample Projects\CGOL\collect2.exe	[Error] ld returned 1 exit status
+26		E:\Sample Projects\CGOL\Makefile.win	recipe for target 'bin/CGOL.exe' failed
+
+11/26/2020 12:56:29 PM: Appending to log...
+
+31	6	E:\Sample Projects\CGOL\src\Launcher.cpp	[Error] prototype for 'void Launcher::initScreen(const char*, int)' does not match any in class 'Launcher'
+7	0	E:\Sample Projects\CGOL\src\Launcher.cpp	In file included from src/Launcher.cpp
+25	8	E:\Sample Projects\CGOL\src\Launcher.hpp	[Error] candidate is: void Launcher::initScreen(const char*, int, int, int)
+38		E:\Sample Projects\CGOL\Makefile.win	recipe for target 'src/obj/Launcher.o' failed
+
+11/26/2020 12:56:47 PM: Appending to log...
+
+		E:\Sample Projects\CGOL\src\main.cpp	In function 'int SDL_main(int, char**)':
+10	22	E:\Sample Projects\CGOL\src\main.cpp	[Error] qualified-id in declaration before '=' token
+11	23	E:\Sample Projects\CGOL\src\main.cpp	[Error] qualified-id in declaration before '=' token
+16	87	E:\Sample Projects\CGOL\src\main.cpp	[Error] no matching function for call to 'Launcher::initScreen(const char [24], int&, int&, int)'
+16	87	E:\Sample Projects\CGOL\src\main.cpp	[Note] candidate is:
+2	0	E:\Sample Projects\CGOL\src\main.cpp	In file included from src/main.cpp
+25	8	E:\Sample Projects\CGOL\src\Launcher.hpp	[Note] void Launcher::initScreen(const char*, int)
+25	8	E:\Sample Projects\CGOL\src\Launcher.hpp	[Note] candidate expects 2 arguments, 4 provided
+41		E:\Sample Projects\CGOL\Makefile.win	recipe for target 'src/obj/main.o' failed
+
+11/26/2020 12:57:10 PM: Appending to log...
+
+		E:\Sample Projects\CGOL\src\main.cpp	In function 'int SDL_main(int, char**)':
+10	22	E:\Sample Projects\CGOL\src\main.cpp	[Error] qualified-id in declaration before '=' token
+11	23	E:\Sample Projects\CGOL\src\main.cpp	[Error] qualified-id in declaration before '=' token
+41		E:\Sample Projects\CGOL\Makefile.win	recipe for target 'src/obj/main.o' failed
+
+11/26/2020 12:57:28 PM: Appending to log...
+
+		E:\Sample Projects\CGOL\src\obj\Launcher.o	Launcher.cpp:(.rdata$.refptr._ZN8Launcher5WidthE[.refptr._ZN8Launcher5WidthE]+0x0): undefined reference to `Launcher::Width'
+		E:\Sample Projects\CGOL\src\obj\Launcher.o	Launcher.cpp:(.rdata$.refptr._ZN8Launcher6HeightE[.refptr._ZN8Launcher6HeightE]+0x0): undefined reference to `Launcher::Height'
+		E:\Sample Projects\CGOL\collect2.exe	[Error] ld returned 1 exit status
+26		E:\Sample Projects\CGOL\Makefile.win	recipe for target 'bin/CGOL.exe' failed
+
+11/26/2020 12:57:42 PM: Appending to log...
+
+		E:\Sample Projects\CGOL\src\obj\Launcher.o	Launcher.cpp:(.rdata$.refptr._ZN8Launcher5WidthE[.refptr._ZN8Launcher5WidthE]+0x0): undefined reference to `Launcher::Width'
+		E:\Sample Projects\CGOL\src\obj\Launcher.o	Launcher.cpp:(.rdata$.refptr._ZN8Launcher6HeightE[.refptr._ZN8Launcher6HeightE]+0x0): undefined reference to `Launcher::Height'
+		E:\Sample Projects\CGOL\collect2.exe	[Error] ld returned 1 exit status
+26		E:\Sample Projects\CGOL\Makefile.win	recipe for target 'bin/CGOL.exe' failed
+
+11/26/2020 1:02:58 PM: Appending to log...
+
+11	0	E:\Sample Projects\CGOL\src\Cell.hpp	In file included from src/Cell.hpp
+9		E:\Sample Projects\CGOL\src\Cell.cpp	                 from src/Cell.cpp
+54	12	E:\Sample Projects\CGOL\src\Launcher.hpp	[Error] 'int Launcher::width' conflicts with a previous declaration
+49	14	E:\Sample Projects\CGOL\src\Launcher.hpp	[Note] previous declaration 'int Launcher::width'
+54	14	E:\Sample Projects\CGOL\src\Launcher.hpp	[Error] expected ';' at end of member declaration
+54	14	E:\Sample Projects\CGOL\src\Launcher.hpp	[Error] 'int Launcher::height' conflicts with a previous declaration
+49	21	E:\Sample Projects\CGOL\src\Launcher.hpp	[Note] previous declaration 'int Launcher::height'
+29		E:\Sample Projects\CGOL\Makefile.win	recipe for target 'src/obj/Cell.o' failed
+
+11/26/2020 1:03:04 PM: Appending to log...
+
+11	0	E:\Sample Projects\CGOL\src\Cell.hpp	In file included from src/Cell.hpp
+9		E:\Sample Projects\CGOL\src\Cell.cpp	                 from src/Cell.cpp
+54	12	E:\Sample Projects\CGOL\src\Launcher.hpp	[Error] 'int Launcher::width' conflicts with a previous declaration
+49	14	E:\Sample Projects\CGOL\src\Launcher.hpp	[Note] previous declaration 'int Launcher::width'
+54	14	E:\Sample Projects\CGOL\src\Launcher.hpp	[Error] 'int Launcher::height' conflicts with a previous declaration
+49	21	E:\Sample Projects\CGOL\src\Launcher.hpp	[Note] previous declaration 'int Launcher::height'
+29		E:\Sample Projects\CGOL\Makefile.win	recipe for target 'src/obj/Cell.o' failed
+
+11/26/2020 1:07:02 PM: Appending to log...
+
+9	0	E:\Sample Projects\CGOL\src\Cell.cpp	In file included from src/Cell.cpp
+38	38	E:\Sample Projects\CGOL\src\Cell.hpp	[Error] array bound is not an integer constant before ']' token
+38	65	E:\Sample Projects\CGOL\src\Cell.hpp	[Error] array bound is not an integer constant before ']' token
+11	1	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'ROWS' does not name a type
+12	1	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'COLUMNS' does not name a type
+		E:\Sample Projects\CGOL\src\Cell.cpp	In member function 'void Cells::makeCellAliveOrNot(int, int, int)':
+30	3	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'grid' was not declared in this scope
+		E:\Sample Projects\CGOL\src\Cell.cpp	In member function 'int Cells::countNeighbours(int, int)':
+45	8	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'grid' was not declared in this scope
+53	5	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'grid' was not declared in this scope
+		E:\Sample Projects\CGOL\src\Cell.cpp	In member function 'void Cells::update(int, int, int)':
+65	3	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'grid' was not declared in this scope
+69	3	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'grid' was not declared in this scope
+		E:\Sample Projects\CGOL\src\Cell.cpp	In member function 'void Cells::drawCells(SDL_Color)':
+117	7	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'grid' was not declared in this scope
+29		E:\Sample Projects\CGOL\Makefile.win	recipe for target 'src/obj/Cell.o' failed
+
+11/26/2020 1:10:34 PM: Appending to log...
+
+11	36	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] array bound is not an integer constant before ']' token
+11	63	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] array bound is not an integer constant before ']' token
+		E:\Sample Projects\CGOL\src\Cell.cpp	In member function 'void Cells::init()':
+22	4	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'grid' was not declared in this scope
+		E:\Sample Projects\CGOL\src\Cell.cpp	In member function 'void Cells::makeCellAliveOrNot(int, int, int)':
+32	3	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'grid' was not declared in this scope
+		E:\Sample Projects\CGOL\src\Cell.cpp	In member function 'int Cells::countNeighbours(int, int)':
+47	8	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'grid' was not declared in this scope
+55	5	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'grid' was not declared in this scope
+		E:\Sample Projects\CGOL\src\Cell.cpp	In member function 'void Cells::update(int, int, int)':
+67	3	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'grid' was not declared in this scope
+71	3	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'grid' was not declared in this scope
+		E:\Sample Projects\CGOL\src\Cell.cpp	In member function 'void Cells::drawCells(SDL_Color)':
+119	7	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'grid' was not declared in this scope
+29		E:\Sample Projects\CGOL\Makefile.win	recipe for target 'src/obj/Cell.o' failed
+
+11/26/2020 1:11:22 PM: Appending to log...
+
+11	1	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'ROWS' does not name a type
+12	1	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'COLUMNS' does not name a type
+13	36	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] array bound is not an integer constant before ']' token
+13	63	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] array bound is not an integer constant before ']' token
+		E:\Sample Projects\CGOL\src\Cell.cpp	In member function 'void Cells::init()':
+23	4	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'grid' was not declared in this scope
+		E:\Sample Projects\CGOL\src\Cell.cpp	In member function 'void Cells::makeCellAliveOrNot(int, int, int)':
+33	3	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'grid' was not declared in this scope
+		E:\Sample Projects\CGOL\src\Cell.cpp	In member function 'int Cells::countNeighbours(int, int)':
+48	8	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'grid' was not declared in this scope
+56	5	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'grid' was not declared in this scope
+		E:\Sample Projects\CGOL\src\Cell.cpp	In member function 'void Cells::update(int, int, int)':
+68	3	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'grid' was not declared in this scope
+72	3	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'grid' was not declared in this scope
+		E:\Sample Projects\CGOL\src\Cell.cpp	In member function 'void Cells::drawCells(SDL_Color)':
+120	7	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'grid' was not declared in this scope
+29		E:\Sample Projects\CGOL\Makefile.win	recipe for target 'src/obj/Cell.o' failed
+
+11/26/2020 1:11:35 PM: Appending to log...
+
+13	36	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] array bound is not an integer constant before ']' token
+13	63	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] array bound is not an integer constant before ']' token
+		E:\Sample Projects\CGOL\src\Cell.cpp	In member function 'void Cells::init()':
+23	4	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'grid' was not declared in this scope
+		E:\Sample Projects\CGOL\src\Cell.cpp	In member function 'void Cells::makeCellAliveOrNot(int, int, int)':
+33	3	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'grid' was not declared in this scope
+		E:\Sample Projects\CGOL\src\Cell.cpp	In member function 'int Cells::countNeighbours(int, int)':
+48	8	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'grid' was not declared in this scope
+56	5	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'grid' was not declared in this scope
+		E:\Sample Projects\CGOL\src\Cell.cpp	In member function 'void Cells::update(int, int, int)':
+68	3	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'grid' was not declared in this scope
+72	3	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'grid' was not declared in this scope
+		E:\Sample Projects\CGOL\src\Cell.cpp	In member function 'void Cells::drawCells(SDL_Color)':
+120	7	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'grid' was not declared in this scope
+29		E:\Sample Projects\CGOL\Makefile.win	recipe for target 'src/obj/Cell.o' failed
+
+11/26/2020 1:11:55 PM: Appending to log...
+
+13	14	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] array bound is not an integer constant before ']' token
+13	23	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] array bound is not an integer constant before ']' token
+		E:\Sample Projects\CGOL\src\Cell.cpp	In member function 'void Cells::init()':
+23	4	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'grid' was not declared in this scope
+		E:\Sample Projects\CGOL\src\Cell.cpp	In member function 'void Cells::makeCellAliveOrNot(int, int, int)':
+33	3	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'grid' was not declared in this scope
+		E:\Sample Projects\CGOL\src\Cell.cpp	In member function 'int Cells::countNeighbours(int, int)':
+48	8	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'grid' was not declared in this scope
+56	5	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'grid' was not declared in this scope
+		E:\Sample Projects\CGOL\src\Cell.cpp	In member function 'void Cells::update(int, int, int)':
+68	3	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'grid' was not declared in this scope
+72	3	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'grid' was not declared in this scope
+		E:\Sample Projects\CGOL\src\Cell.cpp	In member function 'void Cells::drawCells(SDL_Color)':
+120	7	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'grid' was not declared in this scope
+29		E:\Sample Projects\CGOL\Makefile.win	recipe for target 'src/obj/Cell.o' failed
+
+11/26/2020 1:12:56 PM: Appending to log...
+
+		E:\Sample Projects\CGOL\src\Cell.cpp	In member function 'void Cells::init()':
+17	4	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'grid' was not declared in this scope
+		E:\Sample Projects\CGOL\src\Cell.cpp	In member function 'void Cells::makeCellAliveOrNot(int, int, int)':
+27	3	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'grid' was not declared in this scope
+		E:\Sample Projects\CGOL\src\Cell.cpp	In member function 'int Cells::countNeighbours(int, int)':
+42	8	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'grid' was not declared in this scope
+50	5	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'grid' was not declared in this scope
+		E:\Sample Projects\CGOL\src\Cell.cpp	In member function 'void Cells::update(int, int, int)':
+62	3	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'grid' was not declared in this scope
+66	3	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'grid' was not declared in this scope
+		E:\Sample Projects\CGOL\src\Cell.cpp	In member function 'void Cells::drawCells(SDL_Color)':
+114	7	E:\Sample Projects\CGOL\src\Cell.cpp	[Error] 'grid' was not declared in this scope
+29		E:\Sample Projects\CGOL\Makefile.win	recipe for target 'src/obj/Cell.o' failed

@@ -1,0 +1,1246 @@
+11/26/2020 8:54:40 AM: Creating log...
+
+Rebuilding whole project...
+--------
+- Project Filename: E:\Sample Projects\CGOL\CGOL.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: E:\Sample Projects\CGOL\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: D:\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "E:\Sample Projects\CGOL\Makefile.win" clean all
+
+rm.exe -f src/obj/Cell.o src/obj/Font.o src/obj/GameOfLife.o src/obj/Launcher.o src/obj/main.o src/obj/Music.o src/obj/Texture.o src/obj/Timer.o bin/CGOL.exe
+g++.exe -c src/Cell.cpp -o src/obj/Cell.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Font.cpp -o src/obj/Font.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/GameOfLife.cpp -o src/obj/GameOfLife.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Launcher.cpp -o src/obj/Launcher.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/main.cpp -o src/obj/main.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Music.cpp -o src/obj/Music.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Texture.cpp -o src/obj/Texture.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Timer.cpp -o src/obj/Timer.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe src/obj/Cell.o src/obj/Font.o src/obj/GameOfLife.o src/obj/Launcher.o src/obj/main.o src/obj/Music.o src/obj/Texture.o src/obj/Timer.o -o bin/CGOL.exe -L"D:/Dev-Cpp/MinGW64/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib32" -static-libgcc -lmingw32  -lSDL2main -lSDL2  -lopengl32 -lSDL2_image -lSDL2_ttf -lSDL2_mixer -L"E:/Sample Projects/CGOL/lib" -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: E:\Sample Projects\CGOL\bin\CGOL.exe
+- Output Size: 1.8698616027832 MiB
+- Compilation Time: 8.59s
+
+11/26/2020 9:30:17 AM: Appending to log...
+
+Rebuilding whole project...
+--------
+- Project Filename: E:\Sample Projects\CGOL\CGOL.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: E:\Sample Projects\CGOL\Makefile.win
+- Resource File: E:\Sample Projects\CGOL\src\obj\CGOL_private.res
+
+Processing makefile...
+--------
+- Makefile Processor: D:\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "E:\Sample Projects\CGOL\Makefile.win" clean all
+
+rm.exe -f src/obj/Cell.o src/obj/Font.o src/obj/GameOfLife.o src/obj/Launcher.o src/obj/main.o src/obj/Music.o src/obj/Texture.o src/obj/Timer.o src/obj/CGOL_private.res bin/CGOL.exe
+g++.exe -c src/Cell.cpp -o src/obj/Cell.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Font.cpp -o src/obj/Font.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/GameOfLife.cpp -o src/obj/GameOfLife.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Launcher.cpp -o src/obj/Launcher.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/main.cpp -o src/obj/main.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Music.cpp -o src/obj/Music.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Texture.cpp -o src/obj/Texture.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Timer.cpp -o src/obj/Timer.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+windres.exe -i CGOL_private.rc --input-format=rc -o src/obj/CGOL_private.res -O coff 
+g++.exe src/obj/Cell.o src/obj/Font.o src/obj/GameOfLife.o src/obj/Launcher.o src/obj/main.o src/obj/Music.o src/obj/Texture.o src/obj/Timer.o src/obj/CGOL_private.res -o bin/CGOL.exe -L"D:/Dev-Cpp/MinGW64/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib32" -static-libgcc -lmingw32  -lSDL2main -lSDL2  -lopengl32 -lSDL2_image -lSDL2_ttf -lSDL2_mixer -L"E:/Sample Projects/CGOL/lib" -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: E:\Sample Projects\CGOL\bin\CGOL.exe
+- Output Size: 1.8874568939209 MiB
+- Compilation Time: 12.67s
+
+11/26/2020 9:44:51 AM: Appending to log...
+
+Rebuilding whole project...
+--------
+- Project Filename: E:\Sample Projects\CGOL\CGOL.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: E:\Sample Projects\CGOL\Makefile.win
+- Resource File: E:\Sample Projects\CGOL\src\obj\CGOL_private.res
+
+Processing makefile...
+--------
+- Makefile Processor: D:\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "E:\Sample Projects\CGOL\Makefile.win" clean all
+
+rm.exe -f src/obj/Cell.o src/obj/Font.o src/obj/GameOfLife.o src/obj/Launcher.o src/obj/main.o src/obj/Music.o src/obj/Texture.o src/obj/Timer.o src/obj/CGOL_private.res bin/CGOL.exe
+g++.exe -c src/Cell.cpp -o src/obj/Cell.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Font.cpp -o src/obj/Font.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/GameOfLife.cpp -o src/obj/GameOfLife.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Launcher.cpp -o src/obj/Launcher.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/main.cpp -o src/obj/main.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Music.cpp -o src/obj/Music.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Texture.cpp -o src/obj/Texture.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Timer.cpp -o src/obj/Timer.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+windres.exe -i CGOL_private.rc --input-format=rc -o src/obj/CGOL_private.res -O coff 
+g++.exe src/obj/Cell.o src/obj/Font.o src/obj/GameOfLife.o src/obj/Launcher.o src/obj/main.o src/obj/Music.o src/obj/Texture.o src/obj/Timer.o src/obj/CGOL_private.res -o bin/CGOL.exe -L"D:/Dev-Cpp/MinGW64/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib32" -static-libgcc -lmingw32  -lSDL2main -lSDL2  -lopengl32 -lSDL2_image -lSDL2_ttf -lSDL2_mixer -L"E:/Sample Projects/CGOL/lib" -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: E:\Sample Projects\CGOL\bin\CGOL.exe
+- Output Size: 1.88747406005859 MiB
+- Compilation Time: 8.75s
+
+11/26/2020 9:47:54 AM: Appending to log...
+
+Rebuilding whole project...
+--------
+- Project Filename: E:\Sample Projects\CGOL\CGOL.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: E:\Sample Projects\CGOL\Makefile.win
+- Resource File: E:\Sample Projects\CGOL\src\obj\CGOL_private.res
+
+Processing makefile...
+--------
+- Makefile Processor: D:\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "E:\Sample Projects\CGOL\Makefile.win" clean all
+
+rm.exe -f src/obj/Cell.o src/obj/Font.o src/obj/GameOfLife.o src/obj/Launcher.o src/obj/main.o src/obj/Music.o src/obj/Texture.o src/obj/Timer.o src/obj/CGOL_private.res bin/CGOL.exe
+g++.exe -c src/Cell.cpp -o src/obj/Cell.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Font.cpp -o src/obj/Font.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/GameOfLife.cpp -o src/obj/GameOfLife.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+src/GameOfLife.cpp: In member function 'void Game::renderGame()':
+src/GameOfLife.cpp:223:25: warning: narrowing conversion of '(rand() % 255)' from 'int' to 'Uint8 {aka unsigned char}' inside { } [-Wnarrowing]
+  SDL_Color red = {rand()%255,rand()%255,rand()%255,255} ;
+                         ^
+src/GameOfLife.cpp:223:36: warning: narrowing conversion of '(rand() % 255)' from 'int' to 'Uint8 {aka unsigned char}' inside { } [-Wnarrowing]
+  SDL_Color red = {rand()%255,rand()%255,rand()%255,255} ;
+                                    ^
+src/GameOfLife.cpp:223:47: warning: narrowing conversion of '(rand() % 255)' from 'int' to 'Uint8 {aka unsigned char}' inside { } [-Wnarrowing]
+  SDL_Color red = {rand()%255,rand()%255,rand()%255,255} ;
+                                               ^
+g++.exe -c src/Launcher.cpp -o src/obj/Launcher.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/main.cpp -o src/obj/main.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Music.cpp -o src/obj/Music.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Texture.cpp -o src/obj/Texture.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Timer.cpp -o src/obj/Timer.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+windres.exe -i CGOL_private.rc --input-format=rc -o src/obj/CGOL_private.res -O coff 
+g++.exe src/obj/Cell.o src/obj/Font.o src/obj/GameOfLife.o src/obj/Launcher.o src/obj/main.o src/obj/Music.o src/obj/Texture.o src/obj/Timer.o src/obj/CGOL_private.res -o bin/CGOL.exe -L"D:/Dev-Cpp/MinGW64/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib32" -static-libgcc -lmingw32  -lSDL2main -lSDL2  -lopengl32 -lSDL2_image -lSDL2_ttf -lSDL2_mixer -L"E:/Sample Projects/CGOL/lib" -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 3
+- Output Filename: E:\Sample Projects\CGOL\bin\CGOL.exe
+- Output Size: 1.88796997070313 MiB
+- Compilation Time: 8.70s
+
+11/26/2020 9:51:56 AM: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: E:\Sample Projects\CGOL\CGOL.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: E:\Sample Projects\CGOL\Makefile.win
+- Resource File: E:\Sample Projects\CGOL\src\obj\CGOL_private.res
+
+Processing makefile...
+--------
+- Makefile Processor: D:\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "E:\Sample Projects\CGOL\Makefile.win" all
+
+g++.exe -c src/GameOfLife.cpp -o src/obj/GameOfLife.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+src/GameOfLife.cpp: In member function 'void Game::renderGame()':
+src/GameOfLife.cpp:224:29: warning: narrowing conversion of '(rand() % 255)' from 'int' to 'Uint8 {aka unsigned char}' inside { } [-Wnarrowing]
+  SDL_Color red = {r_ ,rand()%255,rand()%255,255} ;
+                             ^
+src/GameOfLife.cpp:224:40: warning: narrowing conversion of '(rand() % 255)' from 'int' to 'Uint8 {aka unsigned char}' inside { } [-Wnarrowing]
+  SDL_Color red = {r_ ,rand()%255,rand()%255,255} ;
+                                        ^
+g++.exe src/obj/Cell.o src/obj/Font.o src/obj/GameOfLife.o src/obj/Launcher.o src/obj/main.o src/obj/Music.o src/obj/Texture.o src/obj/Timer.o src/obj/CGOL_private.res -o bin/CGOL.exe -L"D:/Dev-Cpp/MinGW64/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib32" -static-libgcc -lmingw32  -lSDL2main -lSDL2  -lopengl32 -lSDL2_image -lSDL2_ttf -lSDL2_mixer -L"E:/Sample Projects/CGOL/lib" -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 2
+- Output Filename: E:\Sample Projects\CGOL\bin\CGOL.exe
+- Output Size: 1.88796997070313 MiB
+- Compilation Time: 2.03s
+
+11/26/2020 9:52:49 AM: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: E:\Sample Projects\CGOL\CGOL.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: E:\Sample Projects\CGOL\Makefile.win
+- Resource File: E:\Sample Projects\CGOL\src\obj\CGOL_private.res
+
+Processing makefile...
+--------
+- Makefile Processor: D:\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "E:\Sample Projects\CGOL\Makefile.win" all
+
+g++.exe -c src/GameOfLife.cpp -o src/obj/GameOfLife.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe src/obj/Cell.o src/obj/Font.o src/obj/GameOfLife.o src/obj/Launcher.o src/obj/main.o src/obj/Music.o src/obj/Texture.o src/obj/Timer.o src/obj/CGOL_private.res -o bin/CGOL.exe -L"D:/Dev-Cpp/MinGW64/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib32" -static-libgcc -lmingw32  -lSDL2main -lSDL2  -lopengl32 -lSDL2_image -lSDL2_ttf -lSDL2_mixer -L"E:/Sample Projects/CGOL/lib" -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf
+D:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file bin/CGOL.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+E:\Sample Projects\CGOL\Makefile.win:26: recipe for target 'bin/CGOL.exe' failed
+mingw32-make.exe: *** [bin/CGOL.exe] Error 1
+
+Compilation results...
+--------
+- Errors: 1
+- Warnings: 0
+- Output Filename: E:\Sample Projects\CGOL\bin\CGOL.exe
+- Output Size: 1.88796997070313 MiB
+- Compilation Time: 1.28s
+
+11/26/2020 9:53:05 AM: Appending to log...
+
+Rebuilding whole project...
+--------
+- Project Filename: E:\Sample Projects\CGOL\CGOL.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: E:\Sample Projects\CGOL\Makefile.win
+- Resource File: E:\Sample Projects\CGOL\src\obj\CGOL_private.res
+
+Processing makefile...
+--------
+- Makefile Processor: D:\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "E:\Sample Projects\CGOL\Makefile.win" clean all
+
+rm.exe -f src/obj/Cell.o src/obj/Font.o src/obj/GameOfLife.o src/obj/Launcher.o src/obj/main.o src/obj/Music.o src/obj/Texture.o src/obj/Timer.o src/obj/CGOL_private.res bin/CGOL.exe
+g++.exe -c src/Cell.cpp -o src/obj/Cell.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Font.cpp -o src/obj/Font.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/GameOfLife.cpp -o src/obj/GameOfLife.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Launcher.cpp -o src/obj/Launcher.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/main.cpp -o src/obj/main.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Music.cpp -o src/obj/Music.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Texture.cpp -o src/obj/Texture.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Timer.cpp -o src/obj/Timer.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+windres.exe -i CGOL_private.rc --input-format=rc -o src/obj/CGOL_private.res -O coff 
+g++.exe src/obj/Cell.o src/obj/Font.o src/obj/GameOfLife.o src/obj/Launcher.o src/obj/main.o src/obj/Music.o src/obj/Texture.o src/obj/Timer.o src/obj/CGOL_private.res -o bin/CGOL.exe -L"D:/Dev-Cpp/MinGW64/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib32" -static-libgcc -lmingw32  -lSDL2main -lSDL2  -lopengl32 -lSDL2_image -lSDL2_ttf -lSDL2_mixer -L"E:/Sample Projects/CGOL/lib" -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: E:\Sample Projects\CGOL\bin\CGOL.exe
+- Output Size: 1.88796997070313 MiB
+- Compilation Time: 8.42s
+
+11/26/2020 10:05:59 AM: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: E:\Sample Projects\CGOL\CGOL.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: E:\Sample Projects\CGOL\Makefile.win
+- Resource File: E:\Sample Projects\CGOL\src\obj\CGOL_private.res
+
+Processing makefile...
+--------
+- Makefile Processor: D:\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "E:\Sample Projects\CGOL\Makefile.win" all
+
+mingw32-make.exe: Nothing to be done for 'all'.
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: E:\Sample Projects\CGOL\bin\CGOL.exe
+- Output Size: 1.88796997070313 MiB
+- Compilation Time: 0.09s
+
+11/26/2020 10:06:26 AM: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: E:\Sample Projects\CGOL\CGOL.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: E:\Sample Projects\CGOL\Makefile.win
+- Resource File: E:\Sample Projects\CGOL\src\obj\CGOL_private.res
+
+Processing makefile...
+--------
+- Makefile Processor: D:\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "E:\Sample Projects\CGOL\Makefile.win" all
+
+mingw32-make.exe: Nothing to be done for 'all'.
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: E:\Sample Projects\CGOL\bin\CGOL.exe
+- Output Size: 1.88796997070313 MiB
+- Compilation Time: 0.11s
+
+11/26/2020 10:06:41 AM: Appending to log...
+
+Rebuilding whole project...
+--------
+- Project Filename: E:\Sample Projects\CGOL\CGOL.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: E:\Sample Projects\CGOL\Makefile.win
+- Resource File: E:\Sample Projects\CGOL\src\obj\CGOL_private.res
+
+Processing makefile...
+--------
+- Makefile Processor: D:\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "E:\Sample Projects\CGOL\Makefile.win" clean all
+
+rm.exe -f src/obj/Cell.o src/obj/Font.o src/obj/GameOfLife.o src/obj/Launcher.o src/obj/main.o src/obj/Music.o src/obj/Texture.o src/obj/Timer.o src/obj/CGOL_private.res bin/CGOL.exe
+g++.exe -c src/Cell.cpp -o src/obj/Cell.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Font.cpp -o src/obj/Font.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/GameOfLife.cpp -o src/obj/GameOfLife.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Launcher.cpp -o src/obj/Launcher.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/main.cpp -o src/obj/main.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Music.cpp -o src/obj/Music.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Texture.cpp -o src/obj/Texture.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Timer.cpp -o src/obj/Timer.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+windres.exe -i CGOL_private.rc --input-format=rc -o src/obj/CGOL_private.res -O coff 
+g++.exe src/obj/Cell.o src/obj/Font.o src/obj/GameOfLife.o src/obj/Launcher.o src/obj/main.o src/obj/Music.o src/obj/Texture.o src/obj/Timer.o src/obj/CGOL_private.res -o bin/CGOL.exe -L"D:/Dev-Cpp/MinGW64/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib32" -static-libgcc -lmingw32  -lSDL2main -lSDL2  -lopengl32 -lSDL2_image -lSDL2_ttf -lSDL2_mixer -L"E:/Sample Projects/CGOL/lib" -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: E:\Sample Projects\CGOL\bin\CGOL.exe
+- Output Size: 1.88796997070313 MiB
+- Compilation Time: 8.45s
+
+11/26/2020 10:07:07 AM: Appending to log...
+
+Rebuilding whole project...
+--------
+- Project Filename: E:\Sample Projects\CGOL\CGOL.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: E:\Sample Projects\CGOL\Makefile.win
+- Resource File: E:\Sample Projects\CGOL\src\obj\CGOL_private.res
+
+Processing makefile...
+--------
+- Makefile Processor: D:\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "E:\Sample Projects\CGOL\Makefile.win" clean all
+
+rm.exe -f src/obj/Cell.o src/obj/Font.o src/obj/GameOfLife.o src/obj/Launcher.o src/obj/main.o src/obj/Music.o src/obj/Texture.o src/obj/Timer.o src/obj/CGOL_private.res bin/CGOL.exe
+g++.exe -c src/Cell.cpp -o src/obj/Cell.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Font.cpp -o src/obj/Font.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/GameOfLife.cpp -o src/obj/GameOfLife.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Launcher.cpp -o src/obj/Launcher.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/main.cpp -o src/obj/main.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Music.cpp -o src/obj/Music.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Texture.cpp -o src/obj/Texture.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Timer.cpp -o src/obj/Timer.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+windres.exe -i CGOL_private.rc --input-format=rc -o src/obj/CGOL_private.res -O coff 
+g++.exe src/obj/Cell.o src/obj/Font.o src/obj/GameOfLife.o src/obj/Launcher.o src/obj/main.o src/obj/Music.o src/obj/Texture.o src/obj/Timer.o src/obj/CGOL_private.res -o bin/CGOL.exe -L"D:/Dev-Cpp/MinGW64/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib32" -static-libgcc -lmingw32  -lSDL2main -lSDL2  -lopengl32 -lSDL2_image -lSDL2_ttf -lSDL2_mixer -L"E:/Sample Projects/CGOL/lib" -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: E:\Sample Projects\CGOL\bin\CGOL.exe
+- Output Size: 1.88796997070313 MiB
+- Compilation Time: 8.75s
+
+11/26/2020 10:07:40 AM: Appending to log...
+
+Rebuilding whole project...
+--------
+- Project Filename: E:\Sample Projects\CGOL\CGOL.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: E:\Sample Projects\CGOL\Makefile.win
+- Resource File: E:\Sample Projects\CGOL\src\obj\CGOL_private.res
+
+Processing makefile...
+--------
+- Makefile Processor: D:\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "E:\Sample Projects\CGOL\Makefile.win" clean all
+
+rm.exe -f src/obj/Cell.o src/obj/Font.o src/obj/GameOfLife.o src/obj/Launcher.o src/obj/main.o src/obj/Music.o src/obj/Texture.o src/obj/Timer.o src/obj/CGOL_private.res bin/CGOL.exe
+g++.exe -c src/Cell.cpp -o src/obj/Cell.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Font.cpp -o src/obj/Font.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/GameOfLife.cpp -o src/obj/GameOfLife.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Launcher.cpp -o src/obj/Launcher.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/main.cpp -o src/obj/main.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Music.cpp -o src/obj/Music.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Texture.cpp -o src/obj/Texture.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Timer.cpp -o src/obj/Timer.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+windres.exe -i CGOL_private.rc --input-format=rc -o src/obj/CGOL_private.res -O coff 
+g++.exe src/obj/Cell.o src/obj/Font.o src/obj/GameOfLife.o src/obj/Launcher.o src/obj/main.o src/obj/Music.o src/obj/Texture.o src/obj/Timer.o src/obj/CGOL_private.res -o bin/CGOL.exe -L"D:/Dev-Cpp/MinGW64/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib32" -static-libgcc -lmingw32  -lSDL2main -lSDL2  -lopengl32 -lSDL2_image -lSDL2_ttf -lSDL2_mixer -L"E:/Sample Projects/CGOL/lib" -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: E:\Sample Projects\CGOL\bin\CGOL.exe
+- Output Size: 1.88845825195313 MiB
+- Compilation Time: 8.55s
+
+11/26/2020 10:13:42 AM: Appending to log...
+
+Rebuilding whole project...
+--------
+- Project Filename: E:\Sample Projects\CGOL\CGOL.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: E:\Sample Projects\CGOL\Makefile.win
+- Resource File: E:\Sample Projects\CGOL\src\obj\CGOL_private.res
+
+Processing makefile...
+--------
+- Makefile Processor: D:\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "E:\Sample Projects\CGOL\Makefile.win" clean all
+
+rm.exe -f src/obj/Cell.o src/obj/Font.o src/obj/GameOfLife.o src/obj/Launcher.o src/obj/main.o src/obj/Music.o src/obj/Texture.o src/obj/Timer.o src/obj/CGOL_private.res bin/CGOL.exe
+g++.exe -c src/Cell.cpp -o src/obj/Cell.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Font.cpp -o src/obj/Font.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/GameOfLife.cpp -o src/obj/GameOfLife.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Launcher.cpp -o src/obj/Launcher.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/main.cpp -o src/obj/main.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Music.cpp -o src/obj/Music.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Texture.cpp -o src/obj/Texture.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Timer.cpp -o src/obj/Timer.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+windres.exe -i CGOL_private.rc --input-format=rc -o src/obj/CGOL_private.res -O coff 
+g++.exe src/obj/Cell.o src/obj/Font.o src/obj/GameOfLife.o src/obj/Launcher.o src/obj/main.o src/obj/Music.o src/obj/Texture.o src/obj/Timer.o src/obj/CGOL_private.res -o bin/CGOL.exe -L"D:/Dev-Cpp/MinGW64/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib32" -static-libgcc -lmingw32  -lSDL2main -lSDL2  -lopengl32 -lSDL2_image -lSDL2_ttf -lSDL2_mixer -L"E:/Sample Projects/CGOL/lib" -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: E:\Sample Projects\CGOL\bin\CGOL.exe
+- Output Size: 1.88796997070313 MiB
+- Compilation Time: 8.58s
+
+11/26/2020 12:56:29 PM: Appending to log...
+
+Rebuilding whole project...
+--------
+- Project Filename: E:\Sample Projects\CGOL\CGOL.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: E:\Sample Projects\CGOL\Makefile.win
+- Resource File: E:\Sample Projects\CGOL\src\obj\CGOL_private.res
+
+Processing makefile...
+--------
+- Makefile Processor: D:\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "E:\Sample Projects\CGOL\Makefile.win" clean all
+
+rm.exe -f src/obj/Cell.o src/obj/Font.o src/obj/GameOfLife.o src/obj/Launcher.o src/obj/main.o src/obj/Music.o src/obj/Texture.o src/obj/Timer.o src/obj/CGOL_private.res bin/CGOL.exe
+g++.exe -c src/Cell.cpp -o src/obj/Cell.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Font.cpp -o src/obj/Font.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/GameOfLife.cpp -o src/obj/GameOfLife.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Launcher.cpp -o src/obj/Launcher.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+src/Launcher.cpp:31:6: error: prototype for 'void Launcher::initScreen(const char*, int)' does not match any in class 'Launcher'
+ void Launcher::initScreen(const char *title, int flag)
+      ^
+In file included from src/Launcher.cpp:7:0:
+src/Launcher.hpp:25:8: error: candidate is: void Launcher::initScreen(const char*, int, int, int)
+   void initScreen(const char *title, int width, int height, int flag) ;
+        ^
+E:\Sample Projects\CGOL\Makefile.win:38: recipe for target 'src/obj/Launcher.o' failed
+mingw32-make.exe: *** [src/obj/Launcher.o] Error 1
+
+Compilation results...
+--------
+- Errors: 2
+- Warnings: 0
+- Compilation Time: 5.88s
+
+11/26/2020 12:56:47 PM: Appending to log...
+
+Rebuilding whole project...
+--------
+- Project Filename: E:\Sample Projects\CGOL\CGOL.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: E:\Sample Projects\CGOL\Makefile.win
+- Resource File: E:\Sample Projects\CGOL\src\obj\CGOL_private.res
+
+Processing makefile...
+--------
+- Makefile Processor: D:\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "E:\Sample Projects\CGOL\Makefile.win" clean all
+
+rm.exe -f src/obj/Cell.o src/obj/Font.o src/obj/GameOfLife.o src/obj/Launcher.o src/obj/main.o src/obj/Music.o src/obj/Texture.o src/obj/Timer.o src/obj/CGOL_private.res bin/CGOL.exe
+g++.exe -c src/Cell.cpp -o src/obj/Cell.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Font.cpp -o src/obj/Font.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/GameOfLife.cpp -o src/obj/GameOfLife.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Launcher.cpp -o src/obj/Launcher.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/main.cpp -o src/obj/main.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+src/main.cpp: In function 'int SDL_main(int, char**)':
+src/main.cpp:10:22: error: qualified-id in declaration before '=' token
+  int Launcher::Width = 1200 ;
+                      ^
+src/main.cpp:11:23: error: qualified-id in declaration before '=' token
+  int Launcher::Height = 700 ;
+                       ^
+src/main.cpp:16:87: error: no matching function for call to 'Launcher::initScreen(const char [24], int&, int&, int)'
+  launcher->initScreen(" Conway's Game Of Life ", Launcher::Width, Launcher::Height, 0 ) ;
+                                                                                       ^
+src/main.cpp:16:87: note: candidate is:
+In file included from src/main.cpp:2:0:
+src/Launcher.hpp:25:8: note: void Launcher::initScreen(const char*, int)
+   void initScreen(const char *title,  int flag) ;
+        ^
+src/Launcher.hpp:25:8: note:   candidate expects 2 arguments, 4 provided
+E:\Sample Projects\CGOL\Makefile.win:41: recipe for target 'src/obj/main.o' failed
+mingw32-make.exe: *** [src/obj/main.o] Error 1
+
+Compilation results...
+--------
+- Errors: 3
+- Warnings: 0
+- Compilation Time: 4.91s
+
+11/26/2020 12:57:10 PM: Appending to log...
+
+Rebuilding whole project...
+--------
+- Project Filename: E:\Sample Projects\CGOL\CGOL.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: E:\Sample Projects\CGOL\Makefile.win
+- Resource File: E:\Sample Projects\CGOL\src\obj\CGOL_private.res
+
+Processing makefile...
+--------
+- Makefile Processor: D:\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "E:\Sample Projects\CGOL\Makefile.win" clean all
+
+rm.exe -f src/obj/Cell.o src/obj/Font.o src/obj/GameOfLife.o src/obj/Launcher.o src/obj/main.o src/obj/Music.o src/obj/Texture.o src/obj/Timer.o src/obj/CGOL_private.res bin/CGOL.exe
+g++.exe -c src/Cell.cpp -o src/obj/Cell.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Font.cpp -o src/obj/Font.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/GameOfLife.cpp -o src/obj/GameOfLife.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Launcher.cpp -o src/obj/Launcher.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/main.cpp -o src/obj/main.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+src/main.cpp: In function 'int SDL_main(int, char**)':
+src/main.cpp:10:22: error: qualified-id in declaration before '=' token
+  int Launcher::Width = 1200 ;
+                      ^
+src/main.cpp:11:23: error: qualified-id in declaration before '=' token
+  int Launcher::Height = 700 ;
+                       ^
+E:\Sample Projects\CGOL\Makefile.win:41: recipe for target 'src/obj/main.o' failed
+mingw32-make.exe: *** [src/obj/main.o] Error 1
+
+Compilation results...
+--------
+- Errors: 2
+- Warnings: 0
+- Compilation Time: 4.80s
+
+11/26/2020 12:57:28 PM: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: E:\Sample Projects\CGOL\CGOL.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: E:\Sample Projects\CGOL\Makefile.win
+- Resource File: E:\Sample Projects\CGOL\src\obj\CGOL_private.res
+
+Processing makefile...
+--------
+- Makefile Processor: D:\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "E:\Sample Projects\CGOL\Makefile.win" all
+
+g++.exe -c src/main.cpp -o src/obj/main.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Music.cpp -o src/obj/Music.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Texture.cpp -o src/obj/Texture.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Timer.cpp -o src/obj/Timer.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+windres.exe -i CGOL_private.rc --input-format=rc -o src/obj/CGOL_private.res -O coff 
+g++.exe src/obj/Cell.o src/obj/Font.o src/obj/GameOfLife.o src/obj/Launcher.o src/obj/main.o src/obj/Music.o src/obj/Texture.o src/obj/Timer.o src/obj/CGOL_private.res -o bin/CGOL.exe -L"D:/Dev-Cpp/MinGW64/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib32" -static-libgcc -lmingw32  -lSDL2main -lSDL2  -lopengl32 -lSDL2_image -lSDL2_ttf -lSDL2_mixer -L"E:/Sample Projects/CGOL/lib" -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf
+src/obj/Launcher.o:Launcher.cpp:(.rdata$.refptr._ZN8Launcher5WidthE[.refptr._ZN8Launcher5WidthE]+0x0): undefined reference to `Launcher::Width'
+src/obj/Launcher.o:Launcher.cpp:(.rdata$.refptr._ZN8Launcher6HeightE[.refptr._ZN8Launcher6HeightE]+0x0): undefined reference to `Launcher::Height'
+collect2.exe: error: ld returned 1 exit status
+E:\Sample Projects\CGOL\Makefile.win:26: recipe for target 'bin/CGOL.exe' failed
+mingw32-make.exe: *** [bin/CGOL.exe] Error 1
+
+Compilation results...
+--------
+- Errors: 1
+- Warnings: 0
+- Compilation Time: 7.09s
+
+11/26/2020 12:57:42 PM: Appending to log...
+
+Rebuilding whole project...
+--------
+- Project Filename: E:\Sample Projects\CGOL\CGOL.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: E:\Sample Projects\CGOL\Makefile.win
+- Resource File: E:\Sample Projects\CGOL\src\obj\CGOL_private.res
+
+Processing makefile...
+--------
+- Makefile Processor: D:\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "E:\Sample Projects\CGOL\Makefile.win" clean all
+
+rm.exe -f src/obj/Cell.o src/obj/Font.o src/obj/GameOfLife.o src/obj/Launcher.o src/obj/main.o src/obj/Music.o src/obj/Texture.o src/obj/Timer.o src/obj/CGOL_private.res bin/CGOL.exe
+g++.exe -c src/Cell.cpp -o src/obj/Cell.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Font.cpp -o src/obj/Font.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/GameOfLife.cpp -o src/obj/GameOfLife.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Launcher.cpp -o src/obj/Launcher.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/main.cpp -o src/obj/main.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Music.cpp -o src/obj/Music.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Texture.cpp -o src/obj/Texture.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Timer.cpp -o src/obj/Timer.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+windres.exe -i CGOL_private.rc --input-format=rc -o src/obj/CGOL_private.res -O coff 
+g++.exe src/obj/Cell.o src/obj/Font.o src/obj/GameOfLife.o src/obj/Launcher.o src/obj/main.o src/obj/Music.o src/obj/Texture.o src/obj/Timer.o src/obj/CGOL_private.res -o bin/CGOL.exe -L"D:/Dev-Cpp/MinGW64/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib32" -static-libgcc -lmingw32  -lSDL2main -lSDL2  -lopengl32 -lSDL2_image -lSDL2_ttf -lSDL2_mixer -L"E:/Sample Projects/CGOL/lib" -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf
+src/obj/Launcher.o:Launcher.cpp:(.rdata$.refptr._ZN8Launcher5WidthE[.refptr._ZN8Launcher5WidthE]+0x0): undefined reference to `Launcher::Width'
+src/obj/Launcher.o:Launcher.cpp:(.rdata$.refptr._ZN8Launcher6HeightE[.refptr._ZN8Launcher6HeightE]+0x0): undefined reference to `Launcher::Height'
+collect2.exe: error: ld returned 1 exit status
+E:\Sample Projects\CGOL\Makefile.win:26: recipe for target 'bin/CGOL.exe' failed
+mingw32-make.exe: *** [bin/CGOL.exe] Error 1
+
+Compilation results...
+--------
+- Errors: 1
+- Warnings: 0
+- Compilation Time: 8.23s
+
+11/26/2020 1:02:58 PM: Appending to log...
+
+Rebuilding whole project...
+--------
+- Project Filename: E:\Sample Projects\CGOL\CGOL.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: E:\Sample Projects\CGOL\Makefile.win
+- Resource File: E:\Sample Projects\CGOL\src\obj\CGOL_private.res
+
+Processing makefile...
+--------
+- Makefile Processor: D:\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "E:\Sample Projects\CGOL\Makefile.win" clean all
+
+rm.exe -f src/obj/Cell.o src/obj/Font.o src/obj/GameOfLife.o src/obj/Launcher.o src/obj/main.o src/obj/Music.o src/obj/Texture.o src/obj/Timer.o src/obj/CGOL_private.res bin/CGOL.exe
+g++.exe -c src/Cell.cpp -o src/obj/Cell.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+In file included from src/Cell.hpp:11:0,
+                 from src/Cell.cpp:9:
+src/Launcher.hpp:54:12: error: 'int Launcher::width' conflicts with a previous declaration
+   int width, height
+            ^
+src/Launcher.hpp:49:14: note: previous declaration 'int Launcher::width'
+   static int width, height ;
+              ^
+src/Launcher.hpp:54:14: error: expected ';' at end of member declaration
+   int width, height
+              ^
+src/Launcher.hpp:54:14: error: 'int Launcher::height' conflicts with a previous declaration
+src/Launcher.hpp:49:21: note: previous declaration 'int Launcher::height'
+   static int width, height ;
+                     ^
+E:\Sample Projects\CGOL\Makefile.win:29: recipe for target 'src/obj/Cell.o' failed
+mingw32-make.exe: *** [src/obj/Cell.o] Error 1
+
+Compilation results...
+--------
+- Errors: 3
+- Warnings: 0
+- Compilation Time: 1.08s
+
+11/26/2020 1:03:04 PM: Appending to log...
+
+Rebuilding whole project...
+--------
+- Project Filename: E:\Sample Projects\CGOL\CGOL.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: E:\Sample Projects\CGOL\Makefile.win
+- Resource File: E:\Sample Projects\CGOL\src\obj\CGOL_private.res
+
+Processing makefile...
+--------
+- Makefile Processor: D:\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "E:\Sample Projects\CGOL\Makefile.win" clean all
+
+rm.exe -f src/obj/Cell.o src/obj/Font.o src/obj/GameOfLife.o src/obj/Launcher.o src/obj/main.o src/obj/Music.o src/obj/Texture.o src/obj/Timer.o src/obj/CGOL_private.res bin/CGOL.exe
+g++.exe -c src/Cell.cpp -o src/obj/Cell.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+In file included from src/Cell.hpp:11:0,
+                 from src/Cell.cpp:9:
+src/Launcher.hpp:54:12: error: 'int Launcher::width' conflicts with a previous declaration
+   int width, height ;
+            ^
+src/Launcher.hpp:49:14: note: previous declaration 'int Launcher::width'
+   static int width, height ;
+              ^
+src/Launcher.hpp:54:14: error: 'int Launcher::height' conflicts with a previous declaration
+   int width, height ;
+              ^
+src/Launcher.hpp:49:21: note: previous declaration 'int Launcher::height'
+   static int width, height ;
+                     ^
+E:\Sample Projects\CGOL\Makefile.win:29: recipe for target 'src/obj/Cell.o' failed
+mingw32-make.exe: *** [src/obj/Cell.o] Error 1
+
+Compilation results...
+--------
+- Errors: 2
+- Warnings: 0
+- Compilation Time: 1.05s
+
+11/26/2020 1:03:23 PM: Appending to log...
+
+Rebuilding whole project...
+--------
+- Project Filename: E:\Sample Projects\CGOL\CGOL.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: E:\Sample Projects\CGOL\Makefile.win
+- Resource File: E:\Sample Projects\CGOL\src\obj\CGOL_private.res
+
+Processing makefile...
+--------
+- Makefile Processor: D:\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "E:\Sample Projects\CGOL\Makefile.win" clean all
+
+rm.exe -f src/obj/Cell.o src/obj/Font.o src/obj/GameOfLife.o src/obj/Launcher.o src/obj/main.o src/obj/Music.o src/obj/Texture.o src/obj/Timer.o src/obj/CGOL_private.res bin/CGOL.exe
+g++.exe -c src/Cell.cpp -o src/obj/Cell.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Font.cpp -o src/obj/Font.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/GameOfLife.cpp -o src/obj/GameOfLife.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Launcher.cpp -o src/obj/Launcher.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/main.cpp -o src/obj/main.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Music.cpp -o src/obj/Music.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Texture.cpp -o src/obj/Texture.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Timer.cpp -o src/obj/Timer.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+windres.exe -i CGOL_private.rc --input-format=rc -o src/obj/CGOL_private.res -O coff 
+g++.exe src/obj/Cell.o src/obj/Font.o src/obj/GameOfLife.o src/obj/Launcher.o src/obj/main.o src/obj/Music.o src/obj/Texture.o src/obj/Timer.o src/obj/CGOL_private.res -o bin/CGOL.exe -L"D:/Dev-Cpp/MinGW64/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib32" -static-libgcc -lmingw32  -lSDL2main -lSDL2  -lopengl32 -lSDL2_image -lSDL2_ttf -lSDL2_mixer -L"E:/Sample Projects/CGOL/lib" -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: E:\Sample Projects\CGOL\bin\CGOL.exe
+- Output Size: 1.88858032226563 MiB
+- Compilation Time: 8.50s
+
+11/26/2020 1:07:03 PM: Appending to log...
+
+Rebuilding whole project...
+--------
+- Project Filename: E:\Sample Projects\CGOL\CGOL.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: E:\Sample Projects\CGOL\Makefile.win
+- Resource File: E:\Sample Projects\CGOL\src\obj\CGOL_private.res
+
+Processing makefile...
+--------
+- Makefile Processor: D:\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "E:\Sample Projects\CGOL\Makefile.win" clean all
+
+rm.exe -f src/obj/Cell.o src/obj/Font.o src/obj/GameOfLife.o src/obj/Launcher.o src/obj/main.o src/obj/Music.o src/obj/Texture.o src/obj/Timer.o src/obj/CGOL_private.res bin/CGOL.exe
+g++.exe -c src/Cell.cpp -o src/obj/Cell.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+In file included from src/Cell.cpp:9:0:
+src/Cell.hpp:38:38: error: array bound is not an integer constant before ']' token
+   int grid[Launcher::height/CELL_SIZE][Launcher::width/CELL_SIZE] ;
+                                      ^
+src/Cell.hpp:38:65: error: array bound is not an integer constant before ']' token
+   int grid[Launcher::height/CELL_SIZE][Launcher::width/CELL_SIZE] ;
+                                                                 ^
+src/Cell.cpp:11:1: error: 'ROWS' does not name a type
+ ROWS = Launcher::height/CELL_SIZE ;
+ ^
+src/Cell.cpp:12:1: error: 'COLUMNS' does not name a type
+ COLUMNS = Launcher::width/CELL_SIZE
+ ^
+src/Cell.cpp: In member function 'void Cells::makeCellAliveOrNot(int, int, int)':
+src/Cell.cpp:30:3: error: 'grid' was not declared in this scope
+   grid[x][y] = flag ;
+   ^
+src/Cell.cpp: In member function 'int Cells::countNeighbours(int, int)':
+src/Cell.cpp:45:8: error: 'grid' was not declared in this scope
+     if(grid[i][j] == ALIVE)
+        ^
+src/Cell.cpp:53:5: error: 'grid' was not declared in this scope
+  if(grid[x][y] != DEAD)
+     ^
+src/Cell.cpp: In member function 'void Cells::update(int, int, int)':
+src/Cell.cpp:65:3: error: 'grid' was not declared in this scope
+   grid[x][y] = ALIVE ;
+   ^
+src/Cell.cpp:69:3: error: 'grid' was not declared in this scope
+   grid[x][y] = DEAD ;
+   ^
+src/Cell.cpp: In member function 'void Cells::drawCells(SDL_Color)':
+src/Cell.cpp:117:7: error: 'grid' was not declared in this scope
+    if(grid[i][j] == ALIVE)
+       ^
+E:\Sample Projects\CGOL\Makefile.win:29: recipe for target 'src/obj/Cell.o' failed
+mingw32-make.exe: *** [src/obj/Cell.o] Error 1
+
+Compilation results...
+--------
+- Errors: 10
+- Warnings: 0
+- Compilation Time: 1.06s
+
+11/26/2020 1:10:34 PM: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: E:\Sample Projects\CGOL\CGOL.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: E:\Sample Projects\CGOL\Makefile.win
+- Resource File: E:\Sample Projects\CGOL\src\obj\CGOL_private.res
+
+Processing makefile...
+--------
+- Makefile Processor: D:\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "E:\Sample Projects\CGOL\Makefile.win" all
+
+g++.exe -c src/Cell.cpp -o src/obj/Cell.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+src/Cell.cpp:11:36: error: array bound is not an integer constant before ']' token
+ int grid[Launcher::height/CELL_SIZE][Launcher::width/CELL_SIZE] ;
+                                    ^
+src/Cell.cpp:11:63: error: array bound is not an integer constant before ']' token
+ int grid[Launcher::height/CELL_SIZE][Launcher::width/CELL_SIZE] ;
+                                                               ^
+src/Cell.cpp: In member function 'void Cells::init()':
+src/Cell.cpp:22:4: error: 'grid' was not declared in this scope
+    grid[i][j] = DEAD ;
+    ^
+src/Cell.cpp: In member function 'void Cells::makeCellAliveOrNot(int, int, int)':
+src/Cell.cpp:32:3: error: 'grid' was not declared in this scope
+   grid[x][y] = flag ;
+   ^
+src/Cell.cpp: In member function 'int Cells::countNeighbours(int, int)':
+src/Cell.cpp:47:8: error: 'grid' was not declared in this scope
+     if(grid[i][j] == ALIVE)
+        ^
+src/Cell.cpp:55:5: error: 'grid' was not declared in this scope
+  if(grid[x][y] != DEAD)
+     ^
+src/Cell.cpp: In member function 'void Cells::update(int, int, int)':
+src/Cell.cpp:67:3: error: 'grid' was not declared in this scope
+   grid[x][y] = ALIVE ;
+   ^
+src/Cell.cpp:71:3: error: 'grid' was not declared in this scope
+   grid[x][y] = DEAD ;
+   ^
+src/Cell.cpp: In member function 'void Cells::drawCells(SDL_Color)':
+src/Cell.cpp:119:7: error: 'grid' was not declared in this scope
+    if(grid[i][j] == ALIVE)
+       ^
+E:\Sample Projects\CGOL\Makefile.win:29: recipe for target 'src/obj/Cell.o' failed
+mingw32-make.exe: *** [src/obj/Cell.o] Error 1
+
+Compilation results...
+--------
+- Errors: 9
+- Warnings: 0
+- Compilation Time: 1.03s
+
+11/26/2020 1:11:22 PM: Appending to log...
+
+Rebuilding whole project...
+--------
+- Project Filename: E:\Sample Projects\CGOL\CGOL.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: E:\Sample Projects\CGOL\Makefile.win
+- Resource File: E:\Sample Projects\CGOL\src\obj\CGOL_private.res
+
+Processing makefile...
+--------
+- Makefile Processor: D:\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "E:\Sample Projects\CGOL\Makefile.win" clean all
+
+rm.exe -f src/obj/Cell.o src/obj/Font.o src/obj/GameOfLife.o src/obj/Launcher.o src/obj/main.o src/obj/Music.o src/obj/Texture.o src/obj/Timer.o src/obj/CGOL_private.res bin/CGOL.exe
+g++.exe -c src/Cell.cpp -o src/obj/Cell.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+src/Cell.cpp:11:1: error: 'ROWS' does not name a type
+ ROWS = Launcher::height/CELL_SIZE ;
+ ^
+src/Cell.cpp:12:1: error: 'COLUMNS' does not name a type
+ COLUMNS = Launcher::width/CELL_SIZE ;
+ ^
+src/Cell.cpp:13:36: error: array bound is not an integer constant before ']' token
+ int grid[Launcher::height/CELL_SIZE][Launcher::width/CELL_SIZE] ;
+                                    ^
+src/Cell.cpp:13:63: error: array bound is not an integer constant before ']' token
+ int grid[Launcher::height/CELL_SIZE][Launcher::width/CELL_SIZE] ;
+                                                               ^
+src/Cell.cpp: In member function 'void Cells::init()':
+src/Cell.cpp:23:4: error: 'grid' was not declared in this scope
+    grid[i][j] = DEAD ;
+    ^
+src/Cell.cpp: In member function 'void Cells::makeCellAliveOrNot(int, int, int)':
+src/Cell.cpp:33:3: error: 'grid' was not declared in this scope
+   grid[x][y] = flag ;
+   ^
+src/Cell.cpp: In member function 'int Cells::countNeighbours(int, int)':
+src/Cell.cpp:48:8: error: 'grid' was not declared in this scope
+     if(grid[i][j] == ALIVE)
+        ^
+src/Cell.cpp:56:5: error: 'grid' was not declared in this scope
+  if(grid[x][y] != DEAD)
+     ^
+src/Cell.cpp: In member function 'void Cells::update(int, int, int)':
+src/Cell.cpp:68:3: error: 'grid' was not declared in this scope
+   grid[x][y] = ALIVE ;
+   ^
+src/Cell.cpp:72:3: error: 'grid' was not declared in this scope
+   grid[x][y] = DEAD ;
+   ^
+src/Cell.cpp: In member function 'void Cells::drawCells(SDL_Color)':
+src/Cell.cpp:120:7: error: 'grid' was not declared in this scope
+    if(grid[i][j] == ALIVE)
+       ^
+E:\Sample Projects\CGOL\Makefile.win:29: recipe for target 'src/obj/Cell.o' failed
+mingw32-make.exe: *** [src/obj/Cell.o] Error 1
+
+Compilation results...
+--------
+- Errors: 11
+- Warnings: 0
+- Compilation Time: 1.03s
+
+11/26/2020 1:11:35 PM: Appending to log...
+
+Rebuilding whole project...
+--------
+- Project Filename: E:\Sample Projects\CGOL\CGOL.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: E:\Sample Projects\CGOL\Makefile.win
+- Resource File: E:\Sample Projects\CGOL\src\obj\CGOL_private.res
+
+Processing makefile...
+--------
+- Makefile Processor: D:\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "E:\Sample Projects\CGOL\Makefile.win" clean all
+
+rm.exe -f src/obj/Cell.o src/obj/Font.o src/obj/GameOfLife.o src/obj/Launcher.o src/obj/main.o src/obj/Music.o src/obj/Texture.o src/obj/Timer.o src/obj/CGOL_private.res bin/CGOL.exe
+g++.exe -c src/Cell.cpp -o src/obj/Cell.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+src/Cell.cpp:13:36: error: array bound is not an integer constant before ']' token
+ int grid[Launcher::height/CELL_SIZE][Launcher::width/CELL_SIZE] ;
+                                    ^
+src/Cell.cpp:13:63: error: array bound is not an integer constant before ']' token
+ int grid[Launcher::height/CELL_SIZE][Launcher::width/CELL_SIZE] ;
+                                                               ^
+src/Cell.cpp: In member function 'void Cells::init()':
+src/Cell.cpp:23:4: error: 'grid' was not declared in this scope
+    grid[i][j] = DEAD ;
+    ^
+src/Cell.cpp: In member function 'void Cells::makeCellAliveOrNot(int, int, int)':
+src/Cell.cpp:33:3: error: 'grid' was not declared in this scope
+   grid[x][y] = flag ;
+   ^
+src/Cell.cpp: In member function 'int Cells::countNeighbours(int, int)':
+src/Cell.cpp:48:8: error: 'grid' was not declared in this scope
+     if(grid[i][j] == ALIVE)
+        ^
+src/Cell.cpp:56:5: error: 'grid' was not declared in this scope
+  if(grid[x][y] != DEAD)
+     ^
+src/Cell.cpp: In member function 'void Cells::update(int, int, int)':
+src/Cell.cpp:68:3: error: 'grid' was not declared in this scope
+   grid[x][y] = ALIVE ;
+   ^
+src/Cell.cpp:72:3: error: 'grid' was not declared in this scope
+   grid[x][y] = DEAD ;
+   ^
+src/Cell.cpp: In member function 'void Cells::drawCells(SDL_Color)':
+src/Cell.cpp:120:7: error: 'grid' was not declared in this scope
+    if(grid[i][j] == ALIVE)
+       ^
+E:\Sample Projects\CGOL\Makefile.win:29: recipe for target 'src/obj/Cell.o' failed
+mingw32-make.exe: *** [src/obj/Cell.o] Error 1
+
+Compilation results...
+--------
+- Errors: 9
+- Warnings: 0
+- Compilation Time: 1.05s
+
+11/26/2020 1:11:55 PM: Appending to log...
+
+Rebuilding whole project...
+--------
+- Project Filename: E:\Sample Projects\CGOL\CGOL.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: E:\Sample Projects\CGOL\Makefile.win
+- Resource File: E:\Sample Projects\CGOL\src\obj\CGOL_private.res
+
+Processing makefile...
+--------
+- Makefile Processor: D:\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "E:\Sample Projects\CGOL\Makefile.win" clean all
+
+rm.exe -f src/obj/Cell.o src/obj/Font.o src/obj/GameOfLife.o src/obj/Launcher.o src/obj/main.o src/obj/Music.o src/obj/Texture.o src/obj/Timer.o src/obj/CGOL_private.res bin/CGOL.exe
+g++.exe -c src/Cell.cpp -o src/obj/Cell.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+src/Cell.cpp:13:14: error: array bound is not an integer constant before ']' token
+ int grid[ROWS][COLUMNS] ;
+              ^
+src/Cell.cpp:13:23: error: array bound is not an integer constant before ']' token
+ int grid[ROWS][COLUMNS] ;
+                       ^
+src/Cell.cpp: In member function 'void Cells::init()':
+src/Cell.cpp:23:4: error: 'grid' was not declared in this scope
+    grid[i][j] = DEAD ;
+    ^
+src/Cell.cpp: In member function 'void Cells::makeCellAliveOrNot(int, int, int)':
+src/Cell.cpp:33:3: error: 'grid' was not declared in this scope
+   grid[x][y] = flag ;
+   ^
+src/Cell.cpp: In member function 'int Cells::countNeighbours(int, int)':
+src/Cell.cpp:48:8: error: 'grid' was not declared in this scope
+     if(grid[i][j] == ALIVE)
+        ^
+src/Cell.cpp:56:5: error: 'grid' was not declared in this scope
+  if(grid[x][y] != DEAD)
+     ^
+src/Cell.cpp: In member function 'void Cells::update(int, int, int)':
+src/Cell.cpp:68:3: error: 'grid' was not declared in this scope
+   grid[x][y] = ALIVE ;
+   ^
+src/Cell.cpp:72:3: error: 'grid' was not declared in this scope
+   grid[x][y] = DEAD ;
+   ^
+src/Cell.cpp: In member function 'void Cells::drawCells(SDL_Color)':
+src/Cell.cpp:120:7: error: 'grid' was not declared in this scope
+    if(grid[i][j] == ALIVE)
+       ^
+E:\Sample Projects\CGOL\Makefile.win:29: recipe for target 'src/obj/Cell.o' failed
+mingw32-make.exe: *** [src/obj/Cell.o] Error 1
+
+Compilation results...
+--------
+- Errors: 9
+- Warnings: 0
+- Compilation Time: 1.03s
+
+11/26/2020 1:12:56 PM: Appending to log...
+
+Rebuilding whole project...
+--------
+- Project Filename: E:\Sample Projects\CGOL\CGOL.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: E:\Sample Projects\CGOL\Makefile.win
+- Resource File: E:\Sample Projects\CGOL\src\obj\CGOL_private.res
+
+Processing makefile...
+--------
+- Makefile Processor: D:\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "E:\Sample Projects\CGOL\Makefile.win" clean all
+
+rm.exe -f src/obj/Cell.o src/obj/Font.o src/obj/GameOfLife.o src/obj/Launcher.o src/obj/main.o src/obj/Music.o src/obj/Texture.o src/obj/Timer.o src/obj/CGOL_private.res bin/CGOL.exe
+g++.exe -c src/Cell.cpp -o src/obj/Cell.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+src/Cell.cpp: In member function 'void Cells::init()':
+src/Cell.cpp:17:4: error: 'grid' was not declared in this scope
+    grid[i][j] = DEAD ;
+    ^
+src/Cell.cpp: In member function 'void Cells::makeCellAliveOrNot(int, int, int)':
+src/Cell.cpp:27:3: error: 'grid' was not declared in this scope
+   grid[x][y] = flag ;
+   ^
+src/Cell.cpp: In member function 'int Cells::countNeighbours(int, int)':
+src/Cell.cpp:42:8: error: 'grid' was not declared in this scope
+     if(grid[i][j] == ALIVE)
+        ^
+src/Cell.cpp:50:5: error: 'grid' was not declared in this scope
+  if(grid[x][y] != DEAD)
+     ^
+src/Cell.cpp: In member function 'void Cells::update(int, int, int)':
+src/Cell.cpp:62:3: error: 'grid' was not declared in this scope
+   grid[x][y] = ALIVE ;
+   ^
+src/Cell.cpp:66:3: error: 'grid' was not declared in this scope
+   grid[x][y] = DEAD ;
+   ^
+src/Cell.cpp: In member function 'void Cells::drawCells(SDL_Color)':
+src/Cell.cpp:114:7: error: 'grid' was not declared in this scope
+    if(grid[i][j] == ALIVE)
+       ^
+E:\Sample Projects\CGOL\Makefile.win:29: recipe for target 'src/obj/Cell.o' failed
+mingw32-make.exe: *** [src/obj/Cell.o] Error 1
+
+Compilation results...
+--------
+- Errors: 7
+- Warnings: 0
+- Compilation Time: 1.03s
+
+11/26/2020 1:13:36 PM: Appending to log...
+
+Rebuilding whole project...
+--------
+- Project Filename: E:\Sample Projects\CGOL\CGOL.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: E:\Sample Projects\CGOL\Makefile.win
+- Resource File: E:\Sample Projects\CGOL\src\obj\CGOL_private.res
+
+Processing makefile...
+--------
+- Makefile Processor: D:\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "E:\Sample Projects\CGOL\Makefile.win" clean all
+
+rm.exe -f src/obj/Cell.o src/obj/Font.o src/obj/GameOfLife.o src/obj/Launcher.o src/obj/main.o src/obj/Music.o src/obj/Texture.o src/obj/Timer.o src/obj/CGOL_private.res bin/CGOL.exe
+g++.exe -c src/Cell.cpp -o src/obj/Cell.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Font.cpp -o src/obj/Font.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/GameOfLife.cpp -o src/obj/GameOfLife.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Launcher.cpp -o src/obj/Launcher.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/main.cpp -o src/obj/main.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Music.cpp -o src/obj/Music.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Texture.cpp -o src/obj/Texture.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Timer.cpp -o src/obj/Timer.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+windres.exe -i CGOL_private.rc --input-format=rc -o src/obj/CGOL_private.res -O coff 
+g++.exe src/obj/Cell.o src/obj/Font.o src/obj/GameOfLife.o src/obj/Launcher.o src/obj/main.o src/obj/Music.o src/obj/Texture.o src/obj/Timer.o src/obj/CGOL_private.res -o bin/CGOL.exe -L"D:/Dev-Cpp/MinGW64/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib32" -static-libgcc -lmingw32  -lSDL2main -lSDL2  -lopengl32 -lSDL2_image -lSDL2_ttf -lSDL2_mixer -L"E:/Sample Projects/CGOL/lib" -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: E:\Sample Projects\CGOL\bin\CGOL.exe
+- Output Size: 1.88796997070313 MiB
+- Compilation Time: 8.22s
+
+11/26/2020 1:28:18 PM: Appending to log...
+
+Rebuilding whole project...
+--------
+- Project Filename: E:\Sample Projects\CGOL\CGOL.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: E:\Sample Projects\CGOL\Makefile.win
+- Resource File: E:\Sample Projects\CGOL\src\obj\CGOL_private.res
+
+Processing makefile...
+--------
+- Makefile Processor: D:\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "E:\Sample Projects\CGOL\Makefile.win" clean all
+
+rm.exe -f src/obj/Cell.o src/obj/Font.o src/obj/GameOfLife.o src/obj/Launcher.o src/obj/main.o src/obj/Music.o src/obj/Texture.o src/obj/Timer.o src/obj/CGOL_private.res bin/CGOL.exe
+g++.exe -c src/Cell.cpp -o src/obj/Cell.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Font.cpp -o src/obj/Font.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/GameOfLife.cpp -o src/obj/GameOfLife.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Launcher.cpp -o src/obj/Launcher.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/main.cpp -o src/obj/main.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Music.cpp -o src/obj/Music.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Texture.cpp -o src/obj/Texture.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+g++.exe -c src/Timer.cpp -o src/obj/Timer.o -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Sample Projects/CGOL/include" -std=c++11
+windres.exe -i CGOL_private.rc --input-format=rc -o src/obj/CGOL_private.res -O coff 
+g++.exe src/obj/Cell.o src/obj/Font.o src/obj/GameOfLife.o src/obj/Launcher.o src/obj/main.o src/obj/Music.o src/obj/Texture.o src/obj/Timer.o src/obj/CGOL_private.res -o bin/CGOL.exe -L"D:/Dev-Cpp/MinGW64/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib32" -static-libgcc -lmingw32  -lSDL2main -lSDL2  -lopengl32 -lSDL2_image -lSDL2_ttf -lSDL2_mixer -L"E:/Sample Projects/CGOL/lib" -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: E:\Sample Projects\CGOL\bin\CGOL.exe
+- Output Size: 1.88796997070313 MiB
+- Compilation Time: 8.41s
+
+11/26/2020 1:28:42 PM: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: E:\Sample Projects\CGOL\CGOL.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: E:\Sample Projects\CGOL\Makefile.win
+- Resource File: E:\Sample Projects\CGOL\src\obj\CGOL_private.res
+
+Processing makefile...
+--------
+- Makefile Processor: D:\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "E:\Sample Projects\CGOL\Makefile.win" all
+
+mingw32-make.exe: Nothing to be done for 'all'.
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: E:\Sample Projects\CGOL\bin\CGOL.exe
+- Output Size: 1.88796997070313 MiB
+- Compilation Time: 0.08s
